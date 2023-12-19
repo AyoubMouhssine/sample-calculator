@@ -1,5 +1,5 @@
 pipeline {
-    agent sonar
+    agent {sonar}
     stages {
         stage("Build & SonarQube Scanner") {
             agent {
